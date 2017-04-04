@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo Testing</title>
+	<script>
+		function encode() {
+			document.getElementById("hex").value = document.getElementById("json").value;
+		};
+
+		function decode() {
+			document.getElementById("json").value = document.getElementById("hex").value;
+		};
+	</script>
+</head>
+<body>
+	<table cellspacing="0" cellpadding="0" width="100%">
+		<tr>
+			<td width="45%">
+				<h1>Box #1</h1>
+				<textarea id="hex" rows="10" style="width:98%;"></textarea>
+			</td>
+			<td align="center">
+				<input type="button" value="Copy >>" onclick="decode()"/>
+				<br />
+				<br />
+				<input type="button" value="<< Copy" onclick="encode()"/>
+			</td>
+			<td width="45%">
+				<h1>Box #2</h1>
+				<textarea id="json" rows="10" style="width:98%;"></textarea>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
