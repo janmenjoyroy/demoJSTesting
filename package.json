@@ -1,0 +1,27 @@
+{
+  "name": "demojstesting",
+  "version": "1.0.0",
+  "description": "Demo for JS testing using Travis CI, Jasmine and Karma",
+  "main": "test.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janmenjoyroy/demoJSTesting.git"
+  },
+  "author": "janmenjoyroy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janmenjoyroy/demoJSTesting/issues"
+  },
+  "homepage": "https://github.com/janmenjoyroy/demoJSTesting#readme",
+  "devDependencies": {
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.5.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-firefox-launcher": "^1.0.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-cli":"^1.0.1"
+  }
+}
