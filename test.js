@@ -8,3 +8,4 @@
 	n.classList.add('box');
 	document.body.appendChild(n);
 })();
+
